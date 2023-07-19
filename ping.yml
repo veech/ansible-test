@@ -1,0 +1,4 @@
+- hosts: 'nodes'
+  tasks:
+    - name: 'ping servers'
+      ansible.builtin.ping:
